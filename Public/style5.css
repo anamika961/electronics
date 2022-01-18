@@ -1,0 +1,250 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    outline: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    height: 100vh;
+    background-image: url(image/sky.jpg);
+}
+
+.upper_nav {
+    background: rgb(51, 50, 50);
+    color: #388d31;
+}
+
+.fa-phone {
+    padding-left: 5px;
+}
+
+.contact-info i {
+    padding: 5px;
+}
+
+.link_nav {
+    float: right;
+}
+
+.link_nav a {
+    padding: 5px;
+}
+
+.brand-navbar {
+    padding-left: 75px;
+}
+
+.reg_style {
+    padding-left: 900px
+}
+
+.nav_log {
+    margin-left: 50px;
+    float: right;
+}
+
+
+/* .log_style {
+    padding-left: 1150px;
+} */
+
+.mynav {
+    background-color: black;
+    color: black;
+    font-size: 20px;
+}
+
+.navbar-toggler {
+    background-color: rgb(216, 93, 22);
+}
+
+.active {
+    background-color: #4bdf95;
+    font-size: 20px;
+}
+
+.butn {
+    margin-left: 20px;
+    margin-top: 10px;
+    width: 120px;
+    height: 50px;
+    background-color: #0b3b5c;
+    color: #e6e6e6;
+    font-size: 20px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    padding-bottom: 10px;
+    padding-left: 10px
+}
+
+
+/* .reg-design {
+    height: 600px;
+    width: 900px;
+    display: flex;
+    background: white;
+    margin-top: 90px;
+    margin-left: 270px;
+    margin-bottom: 60px;
+    border-radius: 20px;
+}
+
+.first_contact {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 600px;
+    width: 450px;
+    margin-top: 150px;
+    padding-top: 10px;
+    border-radius: 20px;
+}
+
+.info-container {
+    display: inline-block;
+    border-radius: 20px;
+}
+
+.second_contact {
+    float: right;
+    background-color: white;
+    height: 600px;
+    width: 450px;
+    padding: 15px;
+    background: linear-gradient(to right, rgb(107, 144, 158), rgb(125, 173, 169));
+    border-radius: 20px;
+}
+
+input {
+    width: 100%;
+    border-radius: 8px;
+}
+
+.image-style {
+    height: 90%;
+    width: 90%;
+    padding-bottom: 210px;
+}
+
+h1 {
+    padding-top: 30px;
+    text-align: center;
+    font: 20px;
+    color: #000;
+}
+
+.btn {
+    width: 150px;
+    height: 30px;
+    background-color: #20584c;
+    color: #e6e6e6;
+    font-size: 14px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    margin-left: 60px;
+}
+
+label {
+    padding: 15px 120px 2px 0;
+    display: inline-block;
+    font-size: 24px;
+    font-style: italic;
+    border-radius: 20px;
+} */
+
+.errorMessage {
+    font-size: 20px;
+    color: red;
+    margin-top: 5px;
+}
+
+.footer-style {
+    background-color: black;
+    color: antiquewhite;
+    height: 30vh;
+    width: 100%;
+    padding-top: 10px;
+    text-align: center;
+}
+
+.container {
+    height: 100%;
+    align-content: center;
+}
+
+.card {
+    height: 470px;
+    margin-top: auto;
+    margin-bottom: auto;
+    width: 400px;
+    background-color: rgba(0, 0, 0, 0.5) !important;
+}
+
+.social_icon span {
+    font-size: 60px;
+    margin-left: 10px;
+    color: #FFC312;
+}
+
+.social_icon span:hover {
+    color: white;
+    cursor: pointer;
+}
+
+.card-header h3 {
+    color: white;
+}
+
+.social_icon {
+    position: absolute;
+    right: 20px;
+    top: -45px;
+}
+
+.input-group-prepend span {
+    width: 50px;
+    margin-top: 4px;
+    background-color: #FFC312;
+    color: black;
+    border: 0 !important;
+}
+
+input:focus {
+    outline: 0 0 0 0 !important;
+    box-shadow: 0 0 0 0 !important;
+}
+
+
+/* .remember {
+    color: white;
+}
+
+.remember input {
+    width: 20px;
+    height: 20px;
+    margin-left: 15px;
+    margin-right: 5px;
+} */
+
+.login_btn {
+    color: black;
+    background-color: #FFC312;
+    width: 100px;
+    margin-left: 140px;
+}
+
+.login_btn:hover {
+    color: black;
+    background-color: white;
+}
+
+.links {
+    color: white;
+}
+
+.links a {
+    margin-left: 4px;
+}

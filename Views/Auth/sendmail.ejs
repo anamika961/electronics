@@ -1,0 +1,23 @@
+<%- include('../Includes/header.ejs') %>
+    <title>
+        <%=Title_Page%>
+    </title>
+
+    <link rel="stylesheet" type="text/css" href="/style10.css">
+
+    </head>
+
+    <body>
+        <%- include('../Includes/navigation1.ejs') %>
+            <div class="send_mail">
+                <form method="POST" action="/sendMail">
+                    <input type="hidden" value="<%=csrf%>" name="_csrf">
+
+                    <div class="yyt">
+                        <label for="email">Email:</label><br>
+                        <input type="string" id="email" class="in" name="email" value=""><br>
+                    </div>
+                    <input type="submit" id="butn" class="btn btn-danger but-style" value="SEND LINK">
+                </form>
+            </div>
+            <%- include('../Includes/footer.ejs') %>

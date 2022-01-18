@@ -1,0 +1,106 @@
+<%- include('../Includes/header.ejs') %>
+    <title>
+        <%=title %>
+    </title>
+    <link rel="stylesheet" type="text/css" href="/style3.css">
+    </head>
+
+    <body>
+        <%- include('../Includes/navigation1.ejs') %>
+            <%if(isAuthenticated){%>
+                <div class="container">
+                    <div class="card">
+                        <div class="container-fliud">
+                            <div class="wrapper row">
+                                <div class="preview col-md-6">
+
+                                    <div class="preview-pic tab-content">
+                                        <div class="tab-pane active" id="pic-1"><img src="../<%=productdata.proimg%>" height="400px" width="550px " /></div>
+
+                                    </div>
+                                    <ul class="preview-thumbnail nav nav-tabs">
+                                        <li class="active">
+                                            <a data-target="#pic-1" data-toggle="tab"><img src="../<%=productdata.proimg%>"height="110px" width="110px " /></a>
+                                        </li>
+                                        <li>
+                                            <a data-target="#pic-2" data-toggle="tab"><img src="../<%=productdata.proimg%>"height="110px" width="110px " /></a>
+                                        </li>
+                                        <li>
+                                            <a data-target="#pic-3" data-toggle="tab"><img src="../<%=productdata.proimg%>"height="110px" width="110px " /></a>
+                                        </li>
+                                        <li>
+                                            <a data-target="#pic-4" data-toggle="tab"><img src="../<%=productdata.proimg%>"height="110px" width="110px " /></a>
+                                        </li>
+                                        <li>
+                                            <a data-target="#pic-5" data-toggle="tab"><img src="../<%=productdata.proimg%>"height="110px" width="110px " /></a>
+                                        </li>
+                                    </ul>
+
+                                </div>
+                                <div class="details col-md-6">
+                                    <h5 class="card-title">Product Title:
+                                        <%=productdata.protitle%>,</h5>
+                                    <div class="rating">
+                                        <div class="stars">
+                                            <span class="fa fa-star checked"></span>
+                                            <span class="fa fa-star checked"></span>
+                                            <span class="fa fa-star checked"></span>
+                                            <span class="fa fa-star"></span>
+                                            <span class="fa fa-star"></span>
+                                        </div>
+                                        <span class="review-no">41 reviews</span>
+                                    </div>
+                                    <div>
+                                        <p class="card-text pricedes">Product price:
+                                            <%=productdata.proprice%>
+                                        </p>
+                                    </div>
+                                    <div>
+                                        <p class="card-text">Product Description:
+                                            <%=productdata.prodesc%>
+                                        </p>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati molestias, tenetur dolores facilis, laboriosam nisi suscipit! . </p>
+
+                                    </div>
+
+                                    <p class="vote"><strong>91%</strong> of buyers enjoyed this product! <strong>(87 votes)</strong></p>
+                                    <h5 class="colors">colors:
+                                        <span class="color orange not-available" data-toggle="tooltip" title="Not In store"></span>
+                                        <span class="color green"></span>
+                                        <span class="color blue"></span>
+                                    </h5>
+                                    <div class="action">
+                                        <button class="add-to-cart btn btn-default" type="button">add to fav</button>
+                                        <button class="like btn btn-default" type="button"><span class="fa fa-heart"></span></button>
+                                    </div>
+
+                                    <form action="/addToCart" method="POST">
+                                        <input type="hidden" value="<%=csrf%>" name="_csrf">
+                                        <label>Product Quanity: </label><br>
+                                        <input type="number" name="quantity" value="1">
+                                        <input type="hidden" name="productId" value="<%=productdata._id%>">
+                                        <input type="submit" value="Add To Cart" class="btn btn-lg btn-success btn-block">
+
+                                    </form>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+
+                </div>
+                <%}%>
+
+                    <%if(!isAuthenticated){%>
+                        <div class="text-desg">
+                            <h1>Not Yet LoggedIn !!</h1>
+                            <h2>Log In Yourself</h2>
+                        </div>
+                        <div class="click-btn">
+                            <a href="/login_form " class="btn btn-outline-danger btn-lg" aria-current="page ">Click Here</a>
+                        </div>
+
+                        <%}%>
+
+
+                            <%- include('../Includes/footer.ejs') %>

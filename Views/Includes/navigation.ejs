@@ -1,0 +1,71 @@
+<section id="topbar" class="d-none d-lg-block upper_nav">
+    <div class="container clearfix">
+        <div class="contact-info float-left">
+            <i class="fa fa-envelope-o"></i> <a href="mailto:contact@example.com">name@websitename.com</a>
+            <i class="fa fa-phone"></i> +1 2345 67855 22
+        </div>
+        <div class="social-links link_nav">
+            <a href="#" class="twitter"><i class="fa fa-twitter"></i></a>
+            <a href="#" class="facebook"><i class="fa fa-facebook"></i></a>
+            <a href="#" class="google-plus"><i class="fa fa-google-plus"></i></a>
+            <a href="#" class="linkedin"><i class="fa fa-linkedin"></i></a>
+            <a href="#" class="instagram"><i class="fa fa-instagram"></i></a>
+        </div>
+    </div>
+</section>
+<nav class="navbar navbar-expand-lg navStyle  mynav">
+    <a class="brand-navbar" href="/main_form"><img src="image/logo.jpg" alt="Responsive image" height="70px"></a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+        <ul class="navbar-nav ml-auto navList nav-style">
+            <%if(isAuthenticated){%>
+                <li class="nav-item about">
+                    <a class="nav-link" href="#About us">About Us</a>
+                </li>
+
+
+                <li class="nav-item dropdown drop-style">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Admin
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <li class="nav-item nav_elemnt">
+                            <a class="nav-link <%= path === '/home_form' ? 'active' : '' %>" href="/home_form">Add Product</a>
+                        </li>
+                        <li class="nav-item nav_elemnt">
+                            <a class="nav-link <%= path === '/productDetAdmin' ? 'active' : '' %>" href="/productDetAdmin">Product Details</a>
+                        </li>
+                    </ul>
+                </li>
+
+                <li class="nav-item nav_elemnt">
+                    <a class="nav-link <%= path === '/shpDetails' ? 'active' : '' %> " href="/shpDetails">Shop Details</a>
+                </li>
+                <li class="nav-item nav_elemnt">
+                    <a class="nav-link butn btn-warning" href="/log_out"><i class="fa fa-sign-out" aria-hidden="true"></i>LogOut</a>
+
+                </li>
+                <%}%>
+
+                    <%if(!isAuthenticated){%>
+
+                        <li class="nav-item nav_log">
+                            <a class="nav-link btn btn-warning btn-lg <%= path === '/reg_form' ? 'active' : '' %> " href="/reg_form"><i class="fa fa-sign-in" aria-hidden="true"></i></span>SignUp</a>
+                        </li>
+                        <li class="nav-item nav_log">
+                            <a class="nav-link btn btn-warning btn-lg <%= path === '/login_form' ? 'active' : '' %>" href="/login_form"><i class="fa fa-user" aria-hidden="true"></i></i>LogIn</a>
+                        </li>
+
+                        <%}%>
+
+
+
+
+        </ul>
+
+
+    </div>
+    </div>
+</nav>

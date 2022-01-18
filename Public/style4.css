@@ -1,0 +1,123 @@
+body {
+    /* background: whitesmoke; */
+    background: url(image/someimg.jpg);
+}
+
+.upper_nav {
+    background: rgb(51, 50, 50);
+    color: #388d31;
+}
+
+.fa-phone {
+    padding-left: 5px;
+}
+
+.contact-info i {
+    padding: 5px;
+}
+
+.link_nav {
+    float: right;
+}
+
+.social-links a {
+    padding: 5px;
+}
+
+.brand-navbar {
+    padding-left: 120px;
+    /* padding-right: 580px; */
+}
+
+.nav_elemnt {
+    padding-left: 190px;
+}
+
+.mynav {
+    background-color: rgb(16, 18, 19);
+    color: black;
+    font-size: 20px;
+}
+
+.navbar-toggler {
+    background-color: rgb(216, 93, 22);
+}
+
+.drop-style {
+    padding-left: 150px;
+}
+
+.about {
+    padding-left: 250px;
+}
+
+.butn {
+    margin-left: 20px;
+    margin-top: 10px;
+    width: 120px;
+    height: 50px;
+    background-color: #0b3b5c;
+    color: #e6e6e6;
+    font-size: 20px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    padding-bottom: 10px;
+    padding-left: 10px
+}
+
+.active {
+    background-color: #dfd366;
+    font-size: 20px;
+}
+
+.zz {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 100%;
+}
+
+.btn {
+    width: 150px;
+    height: 30px;
+    background-color: #0b3b5c;
+    color: #e6e6e6;
+    font-size: 14px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    margin-left: 35px;
+}
+
+.xx {
+    padding-top: 12px;
+    align-items: flex-start;
+}
+
+.footer-style {
+    margin-top: 50px;
+    background-color: black;
+    color: antiquewhite;
+    height: 30vh;
+    width: 100%;
+    padding-top: 10px;
+}
+
+
+/* .box {
+    padding: 60px 0px;
+}
+
+.box-part {
+    background: #FFF;
+    border-radius: 0;
+    padding: 60px 10px;
+    margin: 30px 0px;
+}
+
+.text {
+    margin: 20px 0px;
+}
+
+.fa {
+    color: #4183D7;
+} */

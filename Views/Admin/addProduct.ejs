@@ -1,0 +1,37 @@
+<%- include('../Includes/header.ejs') %>
+    <title>
+        <%=title_page%>
+    </title>
+
+    <link rel="stylesheet" type="text/css" href="/style.css">
+
+    </head>
+
+    <body>
+        <%- include('../Includes/navigation.ejs') %>
+            <div class="pro-design">
+                <h2>ADD PRODUCT</h2>
+                <form class="form-design" method="POST" action="/postValue" enctype="multipart/form-data">
+                    <input type="hidden" value="<%=csrf%>" name="_csrf">
+                    <label for="ptitle">Product Title:</label><br>
+                    <input type="text" id="ptitle" class="in" name="ptitle" value=""><br>
+                    <label for="pimg">Product Image:</label><br>
+                    <input type="file" id="pimg" class="in" name="pimg" value=""><br>
+                    <label for="pprice">Product Price:</label><br>
+                    <input type="text" id="pprice" class="in" name="pprice" value=""><br>
+                    <label for="pdesc">Product Description:</label><br>
+                    <input type="text" id="pdesc" class="in" name="pdesc" value=""><br>
+                    <%if(error.length>0) {%>
+                        <%for(let err of error) {%>
+                            <div>
+                                <h6 style="color:red;">
+                                    <%=err.msg%>
+                                </h6>
+                            </div>
+                            <%}%>
+
+                                <%}%>
+                                    <input type="submit" id="butn" class="btn" value="submit">
+                </form>
+            </div>
+            <%- include('../Includes/footer.ejs') %>

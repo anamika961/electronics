@@ -1,0 +1,47 @@
+<%- include('../Includes/header.ejs') %>
+    <title>
+        <%=title %>
+    </title>
+    <link rel="stylesheet" type="text/css" href="/style2.css">
+    </head>
+
+    <body>
+        <%- include('../Includes/navigation.ejs') %>
+            <div class="aa">
+                <h1>Product details</h1>
+                <table class="bb">
+                    <tr>
+                        <th colspan="2">Product-Title</th>
+                        <th colspan="2">Product-Image</th>
+                        <th>Product-Price</th>
+                        <th>Product-Desc</th>
+                        <th>Edit-Product</th>
+                        <th>Delete</th>
+                    </tr>
+                    <%if(productdata.length>0){%>
+                        <%for(let val of productdata){%>
+                            <tr>
+                                <td colspan="2">
+                                    <%=val. protitle %>
+                                </td>
+                                <td colspan="2">
+                                    <img src="../<%=val.proimg%>" alt="" height="150px" width="150px">
+                                </td>
+                                <td>
+                                    <%=val.proprice %>
+                                </td>
+                                <td>
+                                    <%=val.prodesc %>
+                                </td>
+                                <td><a href="/edit_form/<%=val._id%>" class="btn btn-primary">Edit</a></td>
+                                <td><a href="/deleteproductadmin/<%=val._id%>" class="btn btn-primary">Delete</a></td>
+                            </tr>
+                            <%}%>
+                                <%}else{%>
+                                    <h1>data not found</h1>
+                                    <%}%>
+
+                </table>
+            </div>
+
+            <%- include('../Includes/footer.ejs') %>

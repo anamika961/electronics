@@ -1,0 +1,27 @@
+<%- include('../Includes/header.ejs') %>
+    <title>
+        <%=Title_Page%>
+    </title>
+
+    <link rel="stylesheet" type="text/css" href="/style10.css">
+
+    </head>
+
+    <body>
+        <%- include('../Includes/navigation1.ejs') %>
+            <div class="reset_pswd">
+                <form method="POST" action="/resetPsd">
+                    <input type="hidden" value="<%=csrf%>" name="_csrf">
+
+                    <div class="yyt">
+                        <input type="hidden" id="fname" class="in" name="fname" value="<%=data.Fname%>"><br>
+                        <input type="hidden" id="lname" class="in" name="lname" value="<%=data.Lname%>"><br>
+                        <input type="hidden" id="email" class="in" name="email" value="<%=data.Email%>"><br>
+                        <label for="psd">Reset Pasword:</label><br>
+                        <input type="string" id="psd" class="in" name="psd" value=""><br>
+                        <input type="hidden" name="usid" class="in" value="<%=data._id%>"><br>
+                    </div>
+                    <input type="submit" id="butn" class="btn btn-danger but-style" value="Save">
+                </form>
+            </div>
+            <%- include('../Includes/footer.ejs') %>

@@ -1,0 +1,94 @@
+body {
+    background: url(image/img13.jpg);
+}
+
+.mynav {
+    background-color: transparent;
+    color: black;
+    font-size: 20px;
+}
+
+.upper_nav {
+    background: rgb(51, 50, 50);
+    color: #388d31;
+}
+
+.fa-phone {
+    padding-left: 5px;
+}
+
+.contact-info i {
+    padding: 5px;
+}
+
+.link_nav {
+    float: right;
+}
+
+.social-links a {
+    padding: 5px;
+}
+
+.navbar-brand {
+    padding-left: 100px;
+    /* padding-right: 580px; */
+    margin-bottom: 20px;
+}
+
+.nav_elemnt {
+    padding-left: 150px;
+}
+
+.butn {
+    margin-left: 20px;
+    margin-top: 10px;
+    width: 120px;
+    height: 50px;
+    background-color: #0b3b5c;
+    color: #e6e6e6;
+    font-size: 20px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    padding-bottom: 10px;
+    padding-left: 10px
+}
+
+label {
+    padding: 15px 120px 2px 0;
+    display: inline-block;
+    font-size: 24px;
+    font-style: italic;
+}
+
+.form_des {
+    margin-top: 30px;
+    padding-left: 150px;
+    background: whitesmoke;
+    margin-left: 500px;
+    margin-right: 500px;
+    box-sizing: border-box;
+    border-radius: 50px;
+}
+
+.btn {
+    width: 150px;
+    height: 40px;
+    background-color: #524e50;
+    color: #141313;
+    font-size: 18px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    margin-left: 30px;
+    padding-bottom: 20px;
+}
+
+.footer-style {
+    color: black;
+    text-align: center;
+    font-size: 14px;
+    background-color: rgb(48, 46, 46);
+    padding: 12px;
+    margin-top: 120px;
+    height: 30vh;
+}

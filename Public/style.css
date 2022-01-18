@@ -1,0 +1,164 @@
+body {
+    background: url(image/main.jpg);
+    /* height: 70vh;
+    width: 100%; */
+}
+
+.pro-design {
+    padding-top: 10px;
+}
+
+h2 {
+    font-size: 35px;
+    color: black;
+    padding-top: 10px;
+    text-align: center;
+}
+
+.upper_nav {
+    background: rgb(51, 50, 50);
+    color: #388d31;
+}
+
+.fa-phone {
+    padding-left: 5px;
+}
+
+.contact-info i {
+    padding: 5px;
+}
+
+.link_nav {
+    float: right;
+}
+
+.social-links a {
+    padding: 5px;
+}
+
+
+/* /* .link_nav a {
+    padding: 5px;
+} */
+
+.brand-navbar {
+    padding-left: 90px;
+    /* padding-right: 580px; */
+}
+
+.nav_elemnt {
+    padding-left: 190px;
+}
+
+.navbar-toggler {
+    background-color: rgb(216, 93, 22);
+}
+
+.drop-style {
+    padding-left: 150px;
+}
+
+.about {
+    padding-left: 250px;
+}
+
+
+/* .reg_style {
+    padding-left: 1150px;
+}
+
+.nav_elemnt {
+  
+} */
+
+.btn {
+    width: 150px;
+    height: 40px;
+    background-color: #524e50;
+    color: #141313;
+    font-size: 18px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    margin-left: 30px;
+    padding-bottom: 20px;
+}
+
+#butn {
+    margin-left: 70px;
+    margin-top: 20px;
+}
+
+label {
+    padding: 15px 120px 2px 0;
+    display: inline-block;
+    font-size: 24px;
+    font-style: italic;
+}
+
+.form-design {
+    margin-top: 40px;
+    padding-left: 100px;
+    background: transparent;
+    margin-left: 500px;
+    margin-right: 500px;
+}
+
+.in {
+    width: 80%;
+    padding: 12px 10px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: none;
+    border-bottom: 4px solid rgb(4, 38, 92);
+    background-color: lavender;
+    border-radius: 8px;
+}
+
+#butn:hover {
+    background-color: rgb(37, 99, 156);
+}
+
+.mynav {
+    background-color: black;
+    font-size: 20px;
+    color: whitesmoke;
+}
+
+.nav-design {
+    float: right;
+    padding-left: 50%;
+}
+
+.nav-design li {
+    padding: 2%;
+    color: black !important;
+}
+
+.active {
+    background-color: #dfd366;
+    font-size: 20px;
+}
+
+.butn {
+    margin-left: 20px;
+    margin-top: 10px;
+    width: 120px;
+    height: 50px;
+    background-color: #0b3b5c;
+    color: #e6e6e6;
+    font-size: 20px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    padding-bottom: 10px;
+    padding-left: 10px
+}
+
+.footer-style {
+    background-color: black;
+    color: antiquewhite;
+    height: 30vh;
+    width: 100%;
+    padding-top: 10px;
+    text-align: center;
+}

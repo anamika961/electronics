@@ -1,0 +1,149 @@
+body {
+    /* height: 100vh; */
+    background: url(image/someimg.jpg)
+}
+
+.mynav {
+    background-color: rgb(12, 12, 12);
+    color: black;
+    font-size: 20px;
+}
+
+.upper_nav {
+    background: rgb(51, 50, 50);
+    color: #388d31;
+}
+
+.social-links a {
+    padding: 5px;
+}
+
+.fa-phone {
+    padding-left: 5px;
+}
+
+.contact-info i {
+    padding: 5px;
+}
+
+.link_nav {
+    float: right;
+}
+
+.link_nav a {
+    padding: 5px;
+}
+
+.brand-navbar {
+    padding-left: 50px;
+}
+
+
+/* .reg_style {
+    padding-left: 1150px;
+} */
+
+.nav_log {
+    margin-left: 50px;
+    float: right;
+}
+
+.brand-navbar {
+    padding-left: 120px;
+    /* padding-right: 580px; */
+}
+
+.nav_elemnt {
+    padding-left: 190px;
+}
+
+.butn {
+    margin-left: 20px;
+    margin-top: 10px;
+    width: 120px;
+    height: 50px;
+    background-color: #0b3b5c;
+    color: #e6e6e6;
+    font-size: 20px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    padding-bottom: 10px;
+    padding-left: 10px
+}
+
+.active {
+    background-color: #dddf4b;
+    font-size: 20px;
+}
+
+.navbar-toggler {
+    background-color: rgb(216, 93, 22);
+}
+
+.drop-style {
+    padding-left: 150px;
+}
+
+.about {
+    padding-left: 250px;
+}
+
+.aa {
+    margin: 10px 70px 70px;
+    /* box-shadow: 0px 35px 50px rgba( 0, 0, 0, 0.2); */
+    height: 420px;
+}
+
+h1 {
+    text-align: center;
+    font-size: 18px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: white;
+    padding: 30px 0;
+}
+
+table,
+th,
+td {
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+    border: 1px solid black;
+}
+
+.bb th {
+    padding: 8px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    word-spacing: 5px;
+}
+
+.bb td {
+    word-spacing: 5px;
+    padding: 8px;
+    text-align: left;
+}
+
+.btn {
+    width: 150px;
+    height: 30px;
+    background-color: #0b3b5c;
+    color: #e6e6e6;
+    font-size: 14px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    margin-left: 35px;
+}
+
+.footer-style {
+    color: rgb(44, 30, 126);
+    text-align: center;
+    font-size: 14px;
+    background-color: #0d0d0f;
+    padding: 12px;
+    margin-top: 760px;
+    height: 30vh;
+}

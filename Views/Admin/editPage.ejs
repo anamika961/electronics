@@ -1,0 +1,29 @@
+<%- include('../Includes/header.ejs') %>
+    <title>
+        <%=title_page%>
+    </title>
+
+    <link rel="stylesheet" type="text/css" href="/style1.css">
+
+    </head>
+
+    <body>
+        <%- include('../Includes/navigation1.ejs') %>
+            <div>
+                <form class="form_des" method="POST" action="/editval" enctype="multipart/form-data">
+                    <input type="hidden" value="<%=csrf%>" name="_csrf">
+                    <label>Product Title: </label><br>
+                    <input type="text" name="ptitle" class="in" value="<%=Editdata.protitle%>"><br>
+                    <label>Product Image:     </label><br>
+                    <input type="file" name="pimg" class="in" value="<%=Editdata.proimg%>"><br>
+                    <img src="../<%=Editdata.proimg%>" height="150px" width="150px" />
+                    <label>Product Price:  </label><br>
+                    <input type="text" name="pprice" class="in" value="<%=Editdata.proprice%>"><br>
+                    <label>Product Desc:  </label><br>
+                    <input type="text" name="pdesc" class="in" value="<%=Editdata.prodesc%>"><br>
+                    <label>MongoDB ID:  </label><br>
+                    <input type="hidden" name="mdbid" class="in" value="<%=Editdata._id%>"><br>
+                    <input type="submit" value="Submit" class="btn" id="butn">
+                </form>
+            </div>
+            <%- include('../Includes/footer.ejs') %>

@@ -1,0 +1,220 @@
+body {
+    /* background: linear-gradient(to right, rgb(155, 72, 117), rgb(88, 131, 180)); */
+    background: blanchedalmond;
+}
+
+.upper_nav {
+    background: rgb(51, 50, 50);
+    color: #388d31;
+}
+
+.fa-phone {
+    padding-left: 5px;
+}
+
+.contact-info i {
+    padding-top: 4px;
+    padding: 10px;
+}
+
+.link_nav {
+    float: right;
+}
+
+.link_nav a {
+    padding: 10px;
+}
+
+.brand-navbar {
+    padding-left: 90px;
+    /* padding-right: 550px; */
+}
+
+.nav_elemnt {
+    padding-left: 190px;
+}
+
+
+/* .nav_elemnt {
+    padding: 100px;
+} */
+
+.nav_log {
+    margin-left: 50px;
+    float: right;
+}
+
+
+/* .nav-style {
+    align-items: inherit;
+} */
+
+.drop-style {
+    padding-left: 150px;
+}
+
+.about {
+    padding-left: 250px;
+}
+
+
+/* .log_style {
+    padding-left: 550px;
+} */
+
+.butn {
+    margin-left: 20px;
+    margin-top: 10px;
+    width: 120px;
+    height: 50px;
+    background-color: #0b3b5c;
+    color: #e6e6e6;
+    font-size: 20px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    padding-bottom: 10px;
+    padding-left: 10px
+}
+
+.mynav {
+    background-color: black;
+    /* background-color: transparent; */
+    color: rgb(20, 19, 19);
+    font-size: 20px;
+}
+
+.navbar-toggler {
+    background-color: rgb(216, 93, 22);
+}
+
+.active {
+    background-color: #4bdf95;
+    font-size: 20px;
+}
+
+.about-story h1 {
+    padding-top: 20px;
+    padding-bottom: 40px;
+}
+
+.story_img {
+    padding-top: 15px;
+    padding-bottom: 20px;
+    padding-right: 70px;
+    float: right;
+}
+
+.story_text {
+    padding: 20px 20px 0 20px;
+}
+
+.story_text h2 {
+    font-size: 34px;
+}
+
+.story_text1 {
+    padding-left: 90px
+}
+
+.footer-style {
+    background-color: black;
+    color: antiquewhite;
+    height: 30vh;
+    width: 100%;
+    padding-top: 10px;
+    text-align: center;
+}
+
+h1 {
+    font: 24px;
+    color: black;
+    text-align: center;
+    padding-top: 150px;
+    font-style: bold italic;
+}
+
+.about-story {
+    margin-top: 30px;
+    padding-top: 40px;
+    margin-left: 20px;
+    font: 24px;
+}
+
+
+/* .card_style {
+    margin-top: 50px;
+} */
+
+.myweb {
+    /* margin-top: 40px;
+    margin-bottom: 30px; */
+    /* margin-top: 30px; */
+    padding-top: 70px;
+    padding-bottom: 100px;
+    /* background: linear-gradient(to right, rgb(155, 35, 35), rgb(196, 162, 51)); */
+    background: url(image/img18.png);
+    /* margin-bottom: 10px;
+    margin-left: 10px; */
+}
+
+.textdeg {
+    color: whitesmoke;
+    padding-top: 50px;
+}
+
+.btn_design {
+    margin-top: 50px;
+    margin-left: 565px;
+}
+
+.site-newsletter {
+    background: url(image/blurr2.png);
+    padding-top: 50px;
+    font-size: 20px;
+    color: black;
+}
+
+.subbtn {
+    left: 350px;
+    padding-bottom: 50px;
+}
+
+.card_style {
+    margin-top: 30px;
+    background: rgb(32, 32, 32);
+    padding-bottom: 30px;
+}
+
+.card-body {
+    background: rgb(168, 162, 162);
+}
+
+.item-price {
+    color: rgb(4, 90, 4);
+}
+
+.star-rating {
+    color: rgb(206, 127, 31);
+}
+
+.card_style h2 {
+    margin-top: 30px;
+    padding-top: 30px;
+    margin-bottom: 50px;
+    text-align: center;
+    font-size: 34px;
+    font-style: bold italic;
+    color: beige;
+}
+
+.about_us {
+    background: white;
+}
+
+.about_us h1 {
+    padding-top: 50px
+}
+
+.about_us h2 {
+    padding-top: 120px
+}
